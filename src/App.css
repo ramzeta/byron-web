@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 5vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/*Estilos nuevos*/
+
+a.nav-link.active {
+  color: white;
+}
+
+a.nav-link:hover {
+  color: rgb(20, 155, 42);
+}
+
+
+a.nav-link {
+  color: rgb(154, 250, 170);
 }
